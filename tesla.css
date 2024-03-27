@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    font-family:sans-serif;
+    font-size: 16px;
+}
+/* nav bar */
+.nav-bar{
+    width: 100%;
+    height: 60px;
+}
+/* first image */
+.tesla-home-page-first-image img,.tesla-home-page-third-image img,.tesla-home-page-fourth-image img,.tesla-home-page-second-image img,.tesla-home-page-fifth-image img,.tesla-home-page-sixth-image img{
+    width: 100%;
+    height: 680px;
+    margin-top: -5px;
+}
+/* image two */
+.tesla-home-page-second-image img{
+    margin-top: -65px;
+}
+.tesla-home-page-seven-image img{
+    width: 17%;
+    height: auto;
+    margin-top: -5px ;
+    margin-top: 200px;
+    margin-left: 510px;
+    margin-bottom: 20px;
+}
+/* text */
+.div-text{
+    position: fixed;
+    top: 20px;
+    margin: 15px 10px 0px 20px ;
+    font-weight: 600;
+    font-size: 19px;
+    cursor: pointer;
+}
+/* ul tag for nav */
+.div-ul-tag-for-nav ul{
+    position: fixed;
+    top: 20px;
+    margin: 05px 0px 0px 280px;
+    font-weight: 600;
+    color: rgb(24, 21, 21);
+}
+/* li tag for nav bar */
+.div-ul-tag-for-nav ul li{
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+/* ul seventh child */
+.ul-seventh-child{
+    margin-left: 110px;
+}
+/* i tag */
+.div-for-slidebar i{
+    font-size: 19px;
+    position: fixed;
+    right: 30px;
+    top: 32px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* for slider */
+.div-ul-tag2-nav-bar ul {
+    position: fixed;
+    top: 40px ;
+    right: -300px;
+    background-color: white;
+    margin-top: -40px;
+    width: 300px;
+    transition: 950ms;
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 680px;
+    transition: all 700ms ease;
+   
+}
+/* slider i */
+.div-ul-tag2-nav-bar ul i{
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px 0px 10px 250px;
+}
+/* li-for slider */
+.div-ul-tag2-nav-bar ul li{
+    margin: 20px;
+    position: relative;
+    font-weight: 500;
+}
+/* checked property */
+#slider:checked ~ .div-ul-tag2-nav-bar ul{
+    right: 0px;
+}
+/* checkbox */
+.checkbox-for-nav-bar{
+    display: none;
+}
+/* part1,3,5,7 letters */
+.div-for-font-part1,.div-for-font-part3,.div-for-font-part5,.div-for-font-part7,.div-for-font-part9,.div-for-font-part11,.div-for-font-part13{
+    position: absolute;
+    top: 160px;
+    left: 550px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #202529;
+}
+/* part2,4,6,8 small letter */
+.div-for-font-part2,.div-for-font-part4,.div-for-font-part6,.div-for-font-part8,.div-for-font-part10,.div-for-font-part12{
+    position: absolute;
+    top: 210px;
+    left: 505px;
+    color: rgba(0, 0, 0, 0.918);
+    font-size: 14px;
+}
+/* part 2a,4a,6a,8a letter */
+.div-for-font-part2 a,.div-for-font-part4 a,.div-for-font-part6 a,.div-for-font-part8 a{
+    color: rgba(0, 0, 0, 0.918);
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* hover */
+.div-for-font-part2 a:hover,.div-for-font-part4 a:hover,.div-for-font-part6 a:hover,.div-for-font-part8 a:hover {
+    text-decoration: 2px solid black underline;
+    transition: 200ms;
+}
+/* top,left,font size etc*/
+.div-for-font-part3{
+    top: 900px;
+}
+.div-for-font-part4{
+    top: 960px;
+}
+.div-for-font-part5{
+    top: 1550px;
+}
+.div-for-font-part6{
+    top: 1610px;
+}
+.div-for-font-part7{
+    top: 2200px;
+}
+.div-for-font-part8{
+    top: 2260px;
+}
+.div-for-font-part9{
+    top: 2920px;
+    left: 380px;
+    font-size: 34px;
+}
+.div-for-font-part10{
+    top: 2970px;
+    left: 555px;
+}
+.div-for-font-part11{
+    top: 3660px;
+    left: 500px;
+}
+.div-for-font-part12{
+    top: 3710px;
+    left: 510px;
+}
+.div-for-font-part13{
+    top: 4150px;
+    left: 515px;
+}
+/* all button */
+.button1,.button3,.button5,.button7,.button9,.button11,.button13{
+    position: absolute;
+    top: 520px;
+    left: 420px;
+    padding: 12px 75px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    opacity: 80%;
+    color: #fff;
+    cursor: pointer;
+}
+.button2,.button4,.button6,.button8,.button10,.button12{
+    position: absolute;
+    top: 520px;
+    left: 690px;
+    padding: 12px 75px;
+    border-radius: 25px;
+    border: none;
+    opacity: 80%;
+    cursor: pointer;
+}
+.button3,.button4{
+    top: 1230px;
+}
+.button5,.button6{
+    top: 1895px;
+}
+.button7,.button8{
+    top: 2560px;
+}
+.button9,.button10{
+    top: 3240px;
+}
+.button11,.button12{
+    top: 3920px;
+}
+/* button13 */
+.button13{
+    top: 4580px;
+    left: 510px;
+}
+.div-las-part{
+    margin: 80px 0px 40px 300px;
+}
+.div-las-part ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 12px;
+    color: #393c41;
+    cursor: pointer;
+}
